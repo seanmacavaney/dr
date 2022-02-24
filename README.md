@@ -164,13 +164,25 @@ This library also supports FAISS indices. Documentation coming soon.
 
 <!--
 ## Training
+-->
 
-
-## Last-Mile reproduction of TCT-ColBERT
+## Last-Mile replication of TCT-ColBERT
 
 We consider "last-mile" reproduction/replication of results --- in the context of papers that involve training, inference/retrieval, and evaluation of a new model ---
 to be the inference, retrieval, and evaluation stages.
--->
+
+The following notebooks faciliate the reproduction of our replication efforts:
+
+ - `examples/tctrepro-lastmile-indexing.ipynb`
+ - `examples/tctrepro-lastmile-retrieval.ipynb`
+
+We also provide the following pre-built indices, to faciliate "last-metre" reproduction:
+
+| File                                           | MD5                                | Link                                                                                               |
+|------------------------------------------------|------------------------------------|----------------------------------------------------------------------------------------------------|
+| `castorini__tct_colbert-v2-msmarco.np.tar`     | `8f51acb9e87abddb71f610fba75e4569` | [Google Drive](https://drive.google.com/file/d/11jjKGIRBOq5-w_tAgmOomzXgQEiB04fy/view?usp=sharing) |
+| `castorini__tct_colbert-v2-hn-msmarco.np.tar`  | `fd9b8851666397281accf3b660f648f8` | [Google Drive](https://drive.google.com/file/d/1jJcnK5IJRDQgkMXVHt4fSnrHbFdopRQh/view?usp=sharing) |
+| `castorini__tct_colbert-v2-hnp-msmarco.np.tar` | `847cf08ca0dc125ce308c54bc880621a` | [Google Drive](https://drive.google.com/file/d/1xPcwHF2ZZvmjRLoTkVMXhJraYKY4UrQ0/view?usp=sharing) |
 
 ## References
 
